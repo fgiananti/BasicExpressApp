@@ -1,5 +1,10 @@
 # Change Log
 
+## v0.0.2
+
+**Added:**  
+gulp-nodemon: handle express server restart on files change
+
 ## v0.0.1
 
 **Added:**  

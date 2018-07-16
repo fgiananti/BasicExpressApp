@@ -1,9 +1,0 @@
-.header {
-  background-color: yellow;
-
-  &__logo {
-    color: red;
-    font-size: 20rem;
-    text-align: center;
-  }
-}

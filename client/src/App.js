@@ -1,17 +1,23 @@
 import React, { Component } from 'react';
 
-import Header from './components/Header';
-// import CSS files after gulp-postCSS
-import './temp/styles/styles.css';
+//components
+import Header from './Header/Header.js'
+import Footer from './Footer/Footer.js'
+
+//modules
+import CSSModules from 'react-css-modules';
+import styles from './App.module.css';
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div styleName="container">
         <Header />
+        <Footer />
       </div>
     );
   }
 }
 
-export default App;
+export default CSSModules(App, styles);

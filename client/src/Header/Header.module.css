@@ -1,5 +1,10 @@
+@define-mixin ciao {
+  background-color: purple;
+}
+
 .container {
-  background-color: yellow;
+  background-color: $secondary;
+
 }
 
 .logo {

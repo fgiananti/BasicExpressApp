@@ -6,12 +6,12 @@ module.exports = (config, env) => {
     plugins: loader => [
       require('postcss-import'),
       require('postcss-mixins')({
-        mixins: require('./src/mixins')
+        mixins: require('./src/styles/abstracts/mixins')
       }),
       require('postcss-conditionals'),
       require('postcss-simple-vars')({
         variables: function variables() {
-          return require('./src/variables')
+          return require('./src/styles/abstracts/variables')
         },
         unknown: function unknown(node, name, result) {
           node.warn(result, 'Unknown variable ' + name)

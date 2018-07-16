@@ -1,5 +1,6 @@
 // src/variables.js
 var globalVariable = {
-  primary: 'red'
+  primary: 'green',
+  secondary: 'orange'
 }
 module.exports = globalVariable

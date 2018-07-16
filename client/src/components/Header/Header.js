@@ -9,7 +9,7 @@ class Header extends Component {
   render() {
     return (
       <div styleName="container">
-        <h1 styleName="logo">Logo</h1>
+        Header
       </div>
     );
   }

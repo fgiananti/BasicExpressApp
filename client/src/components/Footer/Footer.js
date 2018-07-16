@@ -9,7 +9,7 @@ class Footer extends Component {
   render() {
     return (
       <div styleName="container">
-        Footer!!
+        <a href="#" styleName="btn">Footer</a>
       </div>
     );
   }

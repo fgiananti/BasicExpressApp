@@ -1,4 +1,7 @@
 .container {
   background-color: blue;
+}
+
+.btn:hover {
   color: red;
 }

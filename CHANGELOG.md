@@ -1,5 +1,17 @@
 # Change Log
 
+## v0.0.4
+
+**Added:**  
+react-app-rewire-postcss  
+react-app-rewire-css-modules  
+react-css-modules  
+variables.js / mixin.js
+global css settings + normalize.css  
+
+**Removed:**  
+gulp-postCSS: apply postCSS imports, postcssExtend, mixins, conditionals, cssvars, nested, hexrgba, autoprefixer to css files ./client/src/styles/styles.css, output ./client/src/temp/styles.  
+
 ## v0.0.3
 
 **Added:**  

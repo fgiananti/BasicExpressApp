@@ -6,6 +6,14 @@
   "dependencies": {
     "node-sass": "^4.9.2",
     "normalize.css": "^8.0.0",
+    "postcss-color-function": "^4.0.1",
+    "postcss-conditionals": "^2.1.0",
+    "postcss-import": "^11.1.0",
+    "postcss-initial": "^2.0.0",
+    "postcss-math": "0.0.10",
+    "postcss-mixins": "^6.2.0",
+    "postcss-nested": "^3.0.0",
+    "postcss-simple-vars": "^4.1.0",
     "react": "^16.4.1",
     "react-app-rewire-css-modules": "github:codebandits/react-app-rewire-css-modules",
     "react-app-rewire-postcss": "^1.0.2",
@@ -20,14 +28,5 @@
     "test": "react-app-rewired test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "devDependencies": {
-    "postcss-color-function": "^4.0.1",
-    "postcss-conditionals": "^2.1.0",
-    "postcss-import": "^11.1.0",
-    "postcss-initial": "^2.0.0",
-    "postcss-math": "0.0.10",
-    "postcss-mixins": "^6.2.0",
-    "postcss-nested": "^3.0.0",
-    "postcss-simple-vars": "^4.1.0"
-  }
+  "devDependencies": {}
 }

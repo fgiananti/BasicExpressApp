@@ -1,6 +1,22 @@
 // src/mixins.js
 let globalMixins = {
-
+  /* media query mixin  */
+  media(mixin, breakpoint) {
+    let media = '';
+    if (breakpoint === 'phone') {
+      media = '@media only screen and (min-width: 500px)'
+    }
+    if (breakpoint === 'tablet') {
+      media = '@media only screen and (min-width: 700px)'
+    }
+    return {
+        [media] : {
+          '&': {
+            '@mixin-content': {},
+          }
+        }
+      }
+  },
   /* noSelect is a static mixin  */
   noSelect: {
     '-webkit-touch-callout': 'none',

@@ -9,7 +9,7 @@ class Footer extends Component {
   render() {
     return (
       <div styleName="container">
-        <a href="#" styleName="btn" className="pulsate">Footer</a>
+        <a href="#home" styleName="btn" className="pulsate">Footer</a>
       </div>
     );
   }

@@ -1,5 +1,10 @@
 # Change Log
 
+## v0.0.5
+
+**Added:**  
+media query JS mixin
+
 ## v0.0.4
 
 **Added:**  

@@ -1,5 +1,13 @@
 # Change Log
 
+## v0.0.6
+
+**Added:**  
+classnames package + refactor
+
+**Removed:**
+react-css-modules  
+
 ## v0.0.5
 
 **Added:**  

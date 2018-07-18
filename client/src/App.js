@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 
 //components
-import Button from './components/Button'
+import Button from './components/Button';
 
 //modules
-import CSSModules from 'react-css-modules';
 import styles from './App.module.css';
 
 
@@ -12,10 +11,12 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Button />
+        <Button buttonType="primary"/>
+        <Button buttonType="secondary"/>
+        <Button buttonType="danger"/>
       </div>
     );
   }
 }
 
-export default CSSModules(App, styles);
+export default App;

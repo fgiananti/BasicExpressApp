@@ -1,22 +1,30 @@
 import React from 'react';
+import classnames from 'classnames';
 import PropTypes from 'prop-types';
 
 //modules
-import CSSModules from 'react-css-modules';
 import styles from './Button.module.css';
 
-const Button = props => (
-  <button
-    styleName="logo"
-    {...props}
-  >
-    Book now
-</button>
-);
+export const TYPES = {
+  DEFAULT: 'default',
+  PRIMARY: 'primary',
+  DANGER: 'danger',
+  SUCCESS: 'success',
+}
 
-// Button.propTypes = {
-//   src: PropTypes.string.isRequired,
-//   alt: PropTypes.string.isRequired
-// }
+export const Button = ({buttonType, props}) => {
+  const classes = classnames(
+    styles.button,
+    styles[ buttonType || TYPES.PRIMARY]
+  );
 
-export default CSSModules(Button, styles);
+  return (
+    <button
+      className={classes}
+    >
+      Book now
+  </button>
+  )
+};
+
+export default Button;
